@@ -1,170 +1,627 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="">
+    <title>Cruzadinha</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Palavras Cruzadas: Hardware</h1>
-    
-    <div id="div1">
-        <input id="input1" style="width: 25px">
-    </div>
+    <table>
+        <tr>
+            <td><input class="desativada" id="input1" disabled="true"></td>
+            <td><input class="desativada" id="input2" disabled="true"></td>
+            <td><input class="desativada" id="input3" disabled="true"></td>
+            <td><input class="desativada" id="input4" disabled="true"></td>
+            <td><input class="desativada" id="input5" disabled="true"></td>
+            <td><input class="desativada" id="input6" disabled="true"></td>
+            <td><input class="desativada" id="input7" disabled="true"></td>
+            <td><input class="desativada" id="input8" disabled="true"></td>
+            <td><input class="desativada" id="input9" disabled="true"></td>
+            <td><input class="desativada" id="input10" disabled="true"></td>
+            <td><input class="desativada" id="input11" disabled="true"></td>
+            <td><input class="desativada" id="input12" disabled="true"></td>
+            <td><input class="desativada" id="input13" disabled="true"></td>
+            <td><input class="estilo" id="input14"></td>
+            <td><input class="desativada" id="input15" disabled="true"></td>
+            <td><input class="desativada" id="input16" disabled="true"></td>
+            <td><input class="desativada" id="input17" disabled="true"></td>
+            <td><input class="desativada" id="input18" disabled="true"></td>
+            <td><input class="desativada" id="input19" disabled="true"></td>
+            <td><input class="desativada" id="input20" disabled="true"></td>
+            <td><input class="desativada" id="input21" disabled="true"></td>
+        </tr>
 
-    <div id="div2">
-     <input id="input2" style="width: 25px">
-     <input id="input3" style="width: 25px">
-     </div>
+        <tr>
+            <td><input class="desativada" id="input22" disabled="true"></td>
+            <td><input class="desativada" id="input23" disabled="true"></td>
+            <td><input class="desativada" id="input24" disabled="true"></td>
+            <td><input class="desativada" id="input25" disabled="true"></td>
+            <td><input class="desativada" id="input26" disabled="true"></td>
+            <td><input class="desativada" id="input27" disabled="true"></td>
+            <td><input class="desativada" id="input28" disabled="true"></td>
+            <td><input class="desativada" id="input29" disabled="true"></td>
+            <td><input class="desativada" id="input30" disabled="true"></td>
+            <td><input class="desativada" id="input31" disabled="true"></td>
+            <td><input class="desativada" id="input32" disabled="true"></td>
+            <td><input class="desativada" id="input33" disabled="true"></td>
+            <td><input class="desativada" id="input34" disabled="true"></td>
+            <td><input class="estilo" id="input35"></td>
+            <td><input class="desativada" id="input36" disabled="true"></td>
+            <td><input class="estilo" id="input37"></td>
+            <td><input class="desativada" id="input38" disabled="true"></td>
+            <td><input class="desativada" id="input39" disabled="true"></td>
+            <td><input class="desativada" id="input40" disabled="true"></td>
+            <td><input class="desativada" id="input41" disabled="true"></td>
+            <td><input class="desativada" id="input42" disabled="true"></td>
+        </tr>
 
-    <div id="div3">
-        <input id="input4" style="width: 25px">
-        <input id="input5" style="width: 25px">
-        <input id="input6" style="width: 25px">
-        <input id="input7" style="width: 25px">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input43" disabled="true"></td>
+            <td><input class="desativada" id="input44" disabled="true"></td>
+            <td><input class="desativada" id="input45" disabled="true"></td>
+            <td><input class="desativada" id="input46" disabled="true"></td>
+            <td><input class="desativada" id="input47" disabled="true"></td>
+            <td><input class="desativada" id="input48" disabled="true"></td>
+            <td><input class="desativada" id="input49" disabled="true"></td>
+            <td><input class="desativada" id="input50" disabled="true"></td>
+            <td><input class="desativada" id="input51" disabled="true"></td>
+            <td><input class="desativada" id="input52" disabled="true"></td>
+            <td><input class="desativada" id="input53" disabled="true"></td>
+            <td><input class="estilo" id="input54"></td>
+            <td><input class="estilo" id="input55"></td>
+            <td><input class="estilo" id="input56"></td>
+            <td><input class="desativada id="input57" disabled="true"></td>
+            <td><input class="estilo" id="input58"></td>
+            <td><input class="desativada" id="input59" disabled="true"></td>
+            <td><input class="desativada" id="input60" disabled="true"></td>
+            <td><input class="desativada" id="input61" disabled="true"></td>
+            <td><input class="desativada" id="input62" disabled="true"></td>
+            <td><input class="desativada" id="input63" disabled="true"></td>
+        </tr>
 
-    <div id="div4">
-        <input id="input8" style="width: 25px">
-        <input id="input9" style="width: 25px">
-        <input id="input10" style="width: 25px">
-        <input id="input11" style="width: 25px">
-        <input id="input12" style="width: 25px">
-        <input id="input13" style="width: 25px">
-        <input id="input14" style="width: 25px">
-        <input id="input15" style="width: 25px">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input64" disabled="true"></td>
+            <td><input class="desativada" id="input65" disabled="true"></td>
+            <td><input class="desativada" id="input66" disabled="true"></td>
+            <td><input class="desativada" id="input67" disabled="true"></td>
+            <td><input class="desativada" id="input68" disabled="true"></td>
+            <td><input class="desativada" id="input69" disabled="true"></td>
+            <td><input class="desativada" id="input70" disabled="true"></td>
+            <td><input class="desativada" id="input71" disabled="true"></td>
+            <td><input class="desativada" id="input72" disabled="true"></td>
+            <td><input class="desativada" id="input73" disabled="true"></td>
+            <td><input class="desativada" id="input74" disabled="true"></td>
+            <td><input class="desativada" id="input75" disabled="true"></td>
+            <td><input class="desativada" id="input76" disabled="true"></td>
+            <td><input class="estilo" id="input77"></td>
+            <td><input class="estilo" id="input78"></td>
+            <td><input class="estilo" id="input79"></td>
+            <td><input class="estilo" id="input80"></td>
+            <td><input class="estilo" id="input81"></td>
+            <td><input class="estilo" id="input82"></td>
+            <td><input class="estilo" id="input83"></td>
+            <td><input class="estilo" id="input84"></td>
+        </tr>
 
-    <div id="div5">
-        <input id="input16" style="width: 25px">
-        <input id="input17" style="width: 25px">
-        <input id="input18" style="width: 25px">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input85" disabled="true"></td>
+            <td><input class="desativada" id="input86" disabled="true"></td>
+            <td><input class="desativada" id="input87" disabled="true"></td>
+            <td><input class="desativada" id="input88" disabled="true"></td>
+            <td><input class="desativada" id="input89" disabled="true"></td>
+            <td><input class="desativada" id="input90" disabled="true"></td>
+            <td><input class="desativada" id="input91" disabled="true"></td>
+            <td><input class="desativada" id="input92" disabled="true"></td>
+            <td><input class="desativada" id="input93" disabled="true"></td>
+            <td><input class="desativada" id="input94" disabled="true"></td>
+            <td><input class="desativada" id="input95" disabled="true"></td>
+            <td><input class="desativada" id="input96" disabled="true"></td>
+            <td><input class="desativada" id="input97" disabled="true"></td>
+            <td><input class="estilo" id="input98"></td>
+            <td><input class="desativada" id="input99" disabled="true"></td>
+            <td><input class="desativada" id="input100" disabled="true"></td>
+            <td><input class="desativada" id="input101" disabled="true"></td>
+            <td><input class="estilo" id="input102"></td>
+            <td><input class="desativada" id="input103" disabled="true"></td>
+            <td><input class="estilo" id="input104"></td>
+            <td><input class="desativada" id="input105" disabled="true"></td>
+        </tr>
 
-    <div id="div6">
-        <input id="input19" style="width: 25px">
-        <input id="input20" style="width: 25px">
-        <input id="input21" style="width: 25px">
-     </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="estilo" id="input113"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="desativada" id="input115" disabled="true"></td>
+            <td><input class="desativada" id="input116" disabled="true"></td>
+            <td><input class="desativada" id="input117" disabled="true"></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="estilo" id="input119"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="estilo" id="input112"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="estilo" id="input126"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div7">
-        <input id="input22" style="width: 25px">
-        <input id="input23" style="width: 25px">
-        <input id="input24" style="width: 25px">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="estilo" id="input113"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="desativada" id="input115" disabled="true"></td>
+            <td><input class="desativada" id="input116" disabled="true"></td>
+            <td><input class="desativada" id="input117" disabled="true"></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="estilo" id="input119"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="estilo" id="input112"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div8">
-        <input id="input24" style="width: 25px">
-        <input id="input25" style="width: 25px">
-        <input id="input26" style="width: 25px">
-        <input id="input27" style="width: 25px">
-        <input id="input28" style="width: 25px">
-        <input id="input29" style="width: 25px">
-        <input id="input30" style="width: 25px">
-        <input id="input31" style="width: 25px">
-        <input id="input32" style="width: 25px">
-        <input id="input33" style="width: 25px">
-        <input id="input34" style="width: 25px">
-        <input id="input35" style="width: 25px">
-        <input id="input_s" style="width: 25px">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="estilo" id="input111"></td>
+            <td><input class="estilo" id="input112"></td>
+            <td><input class="estilo" id="input113"></td>
+            <td><input class="estilo" id="input114"></td>
+            <td><input class="estilo" id="input115"></td>
+            <td><input class="estilo" id="input116"></td>
+            <td><input class="estilo" id="input117"></td>
+            <td><input class="estilo" id="input118"></td>
+            <td><input class="estilo" id="input119"></td>
+            <td><input class="estilo" id="input120"></td>
+            <td><input class="estilo" id="input112"></td>
+            <td><input class="estilo" id="input113"></td>
+            <td><input class="estilo" id="input124"></td>
+            <td><input class="estilo" id="input125"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div9">
-        <input id="input36" style="width: 25px">
-        <input id="input37" style="width: 25px">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="desativada" id="input115" disabled="true"></td>
+            <td><input class="desativada" id="input116" disabled="true"></td>
+            <td><input class="estilo" id="input117"></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="desativada" id="input119" disabled="true"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="estilo" id="input112"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div10"> 
-        <input id="input38" style="width: 25px">
-        <input id="input39" style="width: 25px">
-        <input id="input40" style="width: 25px">
-        <input id="input41" style="width: 25px">
-        <input id="input42" style="width: 25px">
-        <input id="input43" style="width: 25px">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="estilo" id="input115"></td>
+            <td><input class="estilo" id="input116"></td>
+            <td><input class="estilo" id="input117"></td>
+            <td><input class="estilo" id="input118"></td>
+            <td><input class="estilo" id="input119"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="estilo" id="input112"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div11">
-        <input id="input44" style="width: 25px">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="desativada" id="input115" disabled="true"></td>
+            <td><input class="desativada" id="input116" disabled="true"></td>
+            <td><input class="estilo" id="input117" ></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="desativada" id="input119" disabled="true"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div12"> 
-        <input style="width: 25px" id="input45">
-        <input style="width: 25px" id="input46">
-        <input style="width: 25px" id="input47">
-        <input style="width: 25px" id="input48">
-        <input style="width: 25px" id="input49">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="desativada" id="input115" disabled="true"></td>
+            <td><input class="estilo" id="input116"></td>
+            <td><input class="estilo" id="input117"></td>
+            <td><input class="estilo" id="input118"></td>
+            <td><input class="estilo" id="input119"></td>
+            <td><input class="estilo" id="input120"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div13">
-        <input id="inoput50" style="width: 25px">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="desativada" id="input115" disabled="true"></td>
+            <td><input class="desativada" id="input116" disabled="true"></td>
+            <td><input class="estilo" id="input117" ></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="desativada" id="input119" disabled="true"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div14">
-        <input style="width: 25px" id="input51">
-        <input style="width: 25px" id="input52">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="estilo" id="input115"></td>
+            <td><input class="desativada" id="input116" disabled="true"></td>
+            <td><input class="estilo" id="input117" ></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="desativada" id="input119" disabled="true"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div15">
-        <input style="width: 25px" id="input53">
-        <input style="width: 25px" id="input54">
-        <input style="width: 25px" id="input55">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="estilo" id="input115"></td>
+            <td><input class="estilo" id="input116"></td>
+            <td><input class="estilo" id="input117" ></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="desativada" id="input119" disabled="true"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div16">
-        <input style="width: 25px" id="input56">
-        <input style="width: 25px" id="input57">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="estilo" id="input115"></td>
+            <td><input class="desativada" id="input116" disabled="true"></td>
+            <td><input class="estilo" id="input117" ></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="desativada" id="input119" disabled="true"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div17"> 
-    <input style="width: 25px" id="input58">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="estilo" id="input115"></td>
+            <td><input class="desativada" id="input116" disabled="true"></td>
+            <td><input class="desativada" id="input117" disabled="true"></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="desativada" id="input119" disabled="true"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div18"> 
-    <input style="width: 25px" id="input59">
-    <input style="width: 25px" id="input60">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="estilo" id="input113"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="estilo" id="input115"></td>
+            <td><input class="desativada" id="input116" disabled="true"></td>
+            <td><input class="desativada" id="input117" disabled="true"></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="desativada" id="input119" disabled="true"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div19">
-         <input style="width: 25px" id="input61"><input style="width: 25px" id="input62">
-        <input style="width: 25px" id="input63"><input style="width: 25px" id="input64">
-        <input style="width: 25px" id="input65"><input style="width: 25px" id="input66">
-        <input style="width: 25px" id="input67"><input style="width: 25px" id="input68">
-        <input style="width: 25px" id="input69"><input style="width: 25px" id="input70">
-        <input style="width: 25px" id="input71"><input style="width: 25px" id="input72">
-        <input style="width: 25px" id="input73">
-    </div>
+        <tr>
+            <td><input class="estilo" id="input106"></td>
+            <td><input class="estilo" id="input107"></td>
+            <td><input class="estilo" id="input108"></td>
+            <td><input class="estilo" id="input109"></td>
+            <td><input class="estilo" id="input110"></td>
+            <td><input class="estilo" id="input111"></td>
+            <td><input class="estilo" id="input112"></td>
+            <td><input class="estilo" id="input113"></td>
+            <td><input class="estilo" id="input114"></td>
+            <td><input class="estilo" id="input115"></td>
+            <td><input class="estilo" id="input116"></td>
+            <td><input class="estilo" id="input117"></td>
+            <td><input class="estilo" id="input118"></td>
+            <td><input class="estilo" id="input119"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div20">
-        <input id="input74" style="width: 25px">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="estilo" id="input113"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="desativada" id="input115" disabled="true"></td>
+            <td><input class="desativada" id="input116" disabled="true"></td>
+            <td><input class="desativada" id="input117" disabled="true"></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="desativada" id="input119" disabled="true"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div21">
-        <input id="input75" style="width: 25px">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="estilo" id="input113"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="desativada" id="input115" disabled="true"></td>
+            <td><input class="desativada" id="input116" disabled="true"></td>
+            <td><input class="desativada" id="input117" disabled="true"></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="desativada" id="input119" disabled="true"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div22">
-        <input id="input76" style="width: 25px">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="estilo_espaco" id="input113"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="desativada" id="input115" disabled="true"></td>
+            <td><input class="desativada" id="input116" disabled="true"></td>
+            <td><input class="desativada" id="input117" disabled="true"></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="desativada" id="input119" disabled="true"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div23">
-        <input id="input77" style="width: 25px">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="estilo" id="input113"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="desativada" id="input115" disabled="true"></td>
+            <td><input class="desativada" id="input116" disabled="true"></td>
+            <td><input class="desativada" id="input117" disabled="true"></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="desativada" id="input119" disabled="true"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
 
-    <div id="div24">
-        <input id="input78" style="width: 25px">
-    </div>
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="estilo" id="input113"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="desativada" id="input115" disabled="true"></td>
+            <td><input class="desativada" id="input116" disabled="true"></td>
+            <td><input class="desativada" id="input117" disabled="true"></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="desativada" id="input119" disabled="true"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
+
+        <tr>
+            <td><input class="desativada" id="input106" disabled="true"></td>
+            <td><input class="desativada" id="input107" disabled="true"></td>
+            <td><input class="desativada" id="input108" disabled="true"></td>
+            <td><input class="desativada" id="input109" disabled="true"></td>
+            <td><input class="desativada" id="input110" disabled="true"></td>
+            <td><input class="desativada" id="input111" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="estilo" id="input113"></td>
+            <td><input class="desativada" id="input114" disabled="true"></td>
+            <td><input class="desativada" id="input115" disabled="true"></td>
+            <td><input class="desativada" id="input116" disabled="true"></td>
+            <td><input class="desativada" id="input117" disabled="true"></td>
+            <td><input class="desativada" id="input118" disabled="true"></td>
+            <td><input class="desativada" id="input119" disabled="true"></td>
+            <td><input class="desativada" id="input120" disabled="true"></td>
+            <td><input class="desativada" id="input112" disabled="true"></td>
+            <td><input class="desativada" id="input113" disabled="true"></td>
+            <td><input class="desativada" id="input124" disabled="true"></td>
+            <td><input class="desativada" id="input125" disabled="true"></td>
+            <td><input class="desativada" id="input126" disabled="true"></td>
+            <td><input class="desativada" id="input127" disabled="true"></td>
+        </tr>
+    </table>
 
     <div>
-        <h1>Horizontais</h1> 
+
+        <h1>Horizontais</h1>
         3. Responsável pela realização das operações lógicas e aritméticas <br>
         4. Dois núcleos do processador <br>
         9. Armazena grandes quantidades de informações <br>
         11. Capacidade de permitir que dados sejam regravados no dispositivo <br>
         12. processador 7<br>
         14. É responsável por calcular e realizar tarefas determinadas pelo usuário, o cérebro do pc <br>
-        15. Memória local rápida do microprocessador, destinada ao armazenamento temporário 
+        15. Memória local rápida do microprocessador, destinada ao armazenamento temporário
     </div>
 
     <div>
@@ -180,4 +637,5 @@
         16. Ajuda a enviar e receber dados
     </div>
 </body>
+
 </html>
