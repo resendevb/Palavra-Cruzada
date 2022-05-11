@@ -1,31 +1,69 @@
+@import url('http://fonts.cdnfonts.com/css/fragment-core');
+
 body {
     background-image: url(5026570.jpg);
     background-size: cover;
     padding: 0%;
-    margin: 0%;
+    margin: 0%;     
+    
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(82, 77, 77);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #33ff7c;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #04b140;
+  }
+
+
+*{
+    
+    font-family: 'Fragment Core', sans-serif;
 }
 
 table{
     display: flex;
     justify-content: center;
+    margin-top: 2%;
+}
+
+.titulo{
+    color: white;
+    margin-left: 1%;
+    text-shadow: #33ff7c 2px 2px 8px;
 }
 
 .estilo {
-    border-radius: 5px; 
+    border-radius: 7px; 
     margin: 0%;
-    box-shadow: #33ff7c 2px 3px 5px;
+    box-shadow: #33ff7c 2px 2px 5px;
     width: 2vw;
-    height: 3vh;
-    margin-right: 1px;
+    height: 4vh;
+    text-align: center;
+                                                
 }
 .desativada {
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: #33ff7a00;
     border-color: rgba(0, 255, 255, 0);
     width: 2vw;
-    height: 3vh;
+    height: 4vh;
 }
-.estilo_espaco{
+/* .estilo_espaco{
     border-radius: 5px; 
     margin: 0%;
     background-color: #5c004d;
@@ -33,4 +71,17 @@ table{
     width: 2vw;
     height: 3vh;
     margin-right: 1px;
+    border-color: #33ff7a00;
+} */
+
+.definicao {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: large;
+}
+
+.estilizacao_definicao {
+    margin-left: 1%;
+    width: 50%;
 }
