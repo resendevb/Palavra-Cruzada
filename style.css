@@ -63,16 +63,17 @@ table{
     width: 2vw;
     height: 4vh;
 }
-/* .estilo_espaco{
+.indicacao{
+    color: white;
     border-radius: 5px; 
     margin: 0%;
-    background-color: #5c004d;
-    box-shadow: #5c004d 2px 3px 5px;
+    background-color: #e76eff;
+    box-shadow: #77018f 2px 3px 5px;
     width: 2vw;
     height: 3vh;
     margin-right: 1px;
     border-color: #33ff7a00;
-} */
+}
 
 .definicao {
     display: flex;
