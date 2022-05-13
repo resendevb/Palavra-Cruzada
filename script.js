@@ -8,7 +8,8 @@ function validar() {
     var um_sete = a_g.value      /* R */
     var um_oito = a_h.value      /* E */
 
-    if(um_um == "Q" && um_dois == "U" && um_tres == "A" && um_quatro == "D" && um_cinco == "C" && um_seis == "O" && um_sete == "R" && um_oito == "E" ) {
+    if(um_um == "q" && um_dois == "u" && um_tres == "a" && um_quatro == "d" && 
+    um_cinco == "c" && um_seis == "o" && um_sete == "r" && um_oito == "e") {
 
         a_a.style.borderColor = 'green'
         a_a.style.borderStyle = 'solid'
