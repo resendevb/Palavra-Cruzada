@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cruzadinha</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -51,7 +52,7 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="indicacao" disabled="true" placeholder="1 -->"></td>
-            <td><input class="estilo" maxlength="1" id="1_1"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="a_a"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -60,6 +61,7 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
         </tr>
+
 
         <tr>
             <td><input class="desativada" disabled="true"></td>
@@ -75,9 +77,9 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="1_2"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="a_b"></td>
             <td><input class="indicacao" disabled="true" placeholder="2-->"></td>
-            <td><input class="estilo" maxlength="1"id="2_1"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="b_a"></td>
             <td><input class="desativada" disabled="true" placeholder=""></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -97,11 +99,11 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="indicacao" disabled="true" placeholder="3-->"></td>
-            <td><input class="estilo" maxlength="1"id="3_1"></td>
-            <td><input class="estilo" maxlength="1"id="3_2"></td>
-            <td><input class="estilo" maxlength="1"id="3_3-1_3"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="2_2"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="c_a"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="c_b"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="a_c"></td>
+            <td><input class="desativada"  disabled="true"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="b_b"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="indicacao" disabled="true" placeholder="5↓"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -122,15 +124,15 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="4_1-1_4"></td>
-            <td><input class="estilo" maxlength="1"id="4_2"></td>
-            <td><input class="estilo" maxlength="1"id="4_3-2_3"></td>
-            <td><input class="estilo" maxlength="1"id="4_4"></td>
-            <td><input class="estilo" maxlength="1"id="4_5-5_1"></td>
-            <td><input class="estilo" maxlength="1"id="4_6"></td>
-            <td><input class="estilo" maxlength="1"id="4_7-6_1"></td>
-            <td><input class="estilo" maxlength="1"id="4_8"></td>
+            <td><input class="indicacao" disabled="true" placeholder="4-->  "></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="a_d"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="d_b"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="b_c"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="d_d"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="d_e"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="d_f"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="d_g"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="d_h"></td>
         </tr>
 
         <tr>
@@ -147,37 +149,13 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="1_5"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="a_e"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="indicacao" disabled="true" placeholder="8↓"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="5_2"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="e_b"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="6_2"></td>
-            <td><input class="desativada" disabled="true"></td>
-        </tr>
-
-        <tr>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="7_1"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="1_6"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="8_1"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="6_3"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="f_b"></td>
             <td><input class="desativada" disabled="true"></td>
         </tr>
 
@@ -189,15 +167,39 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="7_2"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="g_a"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="a_f"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="h_a"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="f_c"></td>
+            <td><input class="desativada" disabled="true"></td>
+        </tr>
+
+        <tr>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="g_b"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="indicacao" disabled="true" placeholder="10↓"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="1_7"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="a_g"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="8_2"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="h_b"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -211,22 +213,22 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="indicacao" disabled="true" placeholder="9-->"></td>
-            <td><input class="estilo" maxlength="1"id="9_1"></td>
-            <td><input class="estilo" maxlength="1"id="9_2"></td>
-            <td><input class="estilo" maxlength="1"id="9_3-7_3"></td>
-            <td><input class="estilo" maxlength="1"id="9_4"></td>
-            <td><input class="estilo" maxlength="1"id="9_5"></td>
-            <td><input class="estilo" maxlength="1"id="9_6"></td>
-            <td><input class="estilo" maxlength="1"id="9_7-10_1"></td>
-            <td><input class="estilo" maxlength="1"id="9_8"></td>
-            <td><input class="estilo" maxlength="1"id="9_9-1_8"></td>
-            <td><input class="estilo" maxlength="1"id="9_10"></td>
-            <td><input class="estilo" maxlength="1"id="9_11-8_3"></td>
-            <td><input class="estilo" maxlength="1"id="9_12"></td>
-            <td><input class="estilo" maxlength="1"id="9_13"></td>
-            <td><input class="estilo" maxlength="1"id="9_14"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="i_a"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="i_b"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="i_c"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="i_d"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="i_e"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="i_f"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="i_g"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="i_h"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1" id="a_h"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="i_j"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="i_k"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="i_l"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="i_m"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="i_n"></td>
+            <td><input class="desativada" onkeyup="validar()" disabled="true"></td>
+            <td><input class="desativada" onkeyup="validar()" disabled="true"></td>
         </tr>
 
         <tr>
@@ -241,11 +243,11 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="10_2"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="j_b"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="8_4"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="h_d"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -263,13 +265,13 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="indicacao" disabled="true" placeholder="11-->"></td>
-            <td><input class="estilo" maxlength="1"id="11_1"></td>
-            <td><input class="estilo" maxlength="1"id="11_2"></td>
-            <td><input class="estilo" maxlength="1"id="11_3-10_3"></td>
-            <td><input class="estilo" maxlength="1"id="11_4"></td>
-            <td><input class="estilo" maxlength="1"id="11_5"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="k_a"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="k_b"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="k_c"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="k_d"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="k_e"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="8_5"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="h_e"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -289,7 +291,7 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="10_4"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="j_d"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -312,11 +314,11 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="indicacao" disabled="true" placeholder="12-->"></td>
-            <td><input class="estilo" maxlength="1"id="12_1"></td>
-            <td><input class="estilo" maxlength="1"id="12_2-10_5"></td>
-            <td><input class="estilo" maxlength="1"id="12_3"></td>
-            <td><input class="estilo" maxlength="1"id="12_4"></td>
-            <td><input class="estilo" maxlength="1"id="12_5"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="l_a"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="l_b"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="l_c"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="l_d"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="l_e"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -337,7 +339,7 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="indicacao" disabled="true" placeholder="13↓"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="10_6"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="j_f"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -359,9 +361,9 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="13_1"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="m_a"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="10_7"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="j_g"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -383,9 +385,9 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="indicacao" disabled="true" placeholder="14-->"></td>
-            <td><input class="estilo" maxlength="1"id="13_2-14_1"></td>
-            <td><input class="estilo" maxlength="1"id="14_2"></td>
-            <td><input class="estilo" maxlength="1"id="14_3-10_8"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="m_b"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="n_b"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="n_c"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -407,9 +409,9 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="13_3"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="m_c"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="10_9"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="j_i"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -431,7 +433,7 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="indicacao" disabled="true" placeholder="16↓"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="13_4"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="m_d"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -453,36 +455,13 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="16_1"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="p_a"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="13_5"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="m_e"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-        </tr>
-
-        <tr>
-            <td><input class="estilo" maxlength="1"id="15_1"></td>
-            <td><input class="estilo" maxlength="1"id="15_2"></td>
-            <td><input class="estilo" maxlength="1"id="15_3"></td>
-            <td><input class="estilo" maxlength="1"id="15_4"></td>
-            <td><input class="estilo" maxlength="1"id="15_5"></td>
-            <td><input class="estilo" maxlength="1"id="15_6"></td>
-            <td><input class="estilo" maxlength="1"id="15_7"></td>
-            <td><input class="estilo" maxlength="1"id="15_8-16_2"></td>
-            <td><input class="estilo" maxlength="1"id="15_9"></td>
-            <td><input class="estilo" maxlength="1"id="15_10-13_6"></td>
-            <td><input class="estilo" maxlength="1"id="15_11"></td>
-            <td><input class="estilo" maxlength="1"id="15_12"></td>
-            <td><input class="estilo" maxlength="1"id="15_13"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -493,20 +472,19 @@
         </tr>
 
         <tr>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="16_3"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
-            <td><input class="desativada" disabled="true"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="o_a"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="o_b"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="o_c"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="o_d"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="o_e"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="o_f"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="o_g"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="o_h"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="o_i"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="o_j"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="o_k"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="o_l"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="o_m"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -524,7 +502,7 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="16_4"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="p_c"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -548,7 +526,7 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="16_5"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="p_d"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -572,7 +550,7 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="16_6"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="p_e"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
@@ -596,7 +574,31 @@
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
-            <td><input class="estilo" maxlength="1"id="16_7"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="p_f"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+        </tr>
+
+        <tr>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="desativada" disabled="true"></td>
+            <td><input class="estilo" onkeyup="validar()" maxlength="1"id="p_g"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>
             <td><input class="desativada" disabled="true"></td>

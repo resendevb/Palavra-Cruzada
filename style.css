@@ -50,10 +50,10 @@ table{
 .estilo {
     border-radius: 7px; 
     margin: 0%;
-    box-shadow: #33ff7c 2px 2px 5px;
     width: 2vw;
     height: 4vh;
     text-align: center;
+    text-transform: uppercase;
                                                 
 }
 .desativada {
@@ -73,6 +73,7 @@ table{
     height: 3vh;
     margin-right: 1px;
     border-color: #33ff7a00;
+    
 }
 
 .definicao {
@@ -86,3 +87,7 @@ table{
     margin-left: 1%;
     width: 50%;
 }
+
+
+
+
