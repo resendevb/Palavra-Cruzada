@@ -20,13 +20,13 @@ body {
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #33ff7c;
+    background: #8b032c;
     border-radius: 10px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #04b140;
+    background: #520119;
   }
 
 
@@ -44,8 +44,10 @@ table{
 .titulo{
     color: white;
     margin-left: 1%;
-    text-shadow: #33ff7c 2px 2px 8px;
+    text-shadow: #8b032c 2px 3px 12px;
 }
+
+
 
 .estilo {
     border-radius: 7px; 
@@ -67,14 +69,19 @@ table{
     color: white;
     border-radius: 5px; 
     margin: 0%;
-    background-color: #e76eff;
-    box-shadow: #77018f 2px 3px 5px;
+    background-color: #690523;
+    box-shadow: #3f0013 2px 3px 5px;
     width: 2vw;
     height: 3vh;
     margin-right: 1px;
-    border-color: #33ff7a00;
+    border: solid #3f0013 2px;
     
 }
+
+.indicacao::placeholder {
+    color: white;
+    text-align: center;
+  }
 
 .definicao {
     display: flex;

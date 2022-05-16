@@ -48,7 +48,7 @@ function validar() {
     var sete_dois = g_b.value.toUpperCase()   /* O */
     /* ta na "nove" */
 
-    
+
 
     var oito_um = h_a.value.toUpperCase()      /* F */
     var oito_dois = h_b.value.toUpperCase()    /* L */
@@ -56,7 +56,7 @@ function validar() {
     var oito_quatro = h_d.value.toUpperCase()  /* S */
     var oito_cinco = h_e.value.toUpperCase()   /* H */
 
-    
+
 
     var nove_um = i_a.value.toUpperCase()        /* M */
     var nove_dois = i_b.value.toUpperCase()      /* E */
@@ -68,7 +68,7 @@ function validar() {
     var nove_oito = i_h.value.toUpperCase()      /* D */
     /* ta no "um" */               /* E */
 
-    
+
 
 
     var nove_dez = i_j.value.toUpperCase()       /* M */
@@ -102,7 +102,7 @@ function validar() {
     var doze_quatro = l_d.value.toUpperCase()     /* T */
     var doze_cinco = l_e.value.toUpperCase()      /* E */
 
-    
+
     var treze_um = m_a.value.toUpperCase()        /* I */
     var treze_dois = m_b.value.toUpperCase()      /* C */
     var treze_tres = m_c.value.toUpperCase()      /* I */
@@ -110,13 +110,13 @@ function validar() {
     var treze_cinco = m_e.value.toUpperCase()     /* C */
     /* ta no "quinze" */            /* O */
 
-    
+
 
     /* ta no "treze" */             /* C */
     var catorze_um = n_b.value.toUpperCase()      /* P */
     var catorze_dois = n_c.value.toUpperCase()    /* U */
 
-    
+
 
     var quinze_um = o_a.value.toUpperCase()           /* R */
     var quinze_dois = o_b.value.toUpperCase()         /* E */
@@ -149,458 +149,470 @@ function validar() {
     if (um_um == "Q" && um_dois == "U" && um_tres == "A" && um_quatro == "D" &&
         um_cinco == "C" && um_seis == "O" && um_sete == "R" && um_oito == "E") {
 
-        a_a.style.borderColor = 'green'
+        a_a.style.boxShadow = "#33ff7c 2px 3px 8px"
         a_a.style.borderStyle = 'solid'
-        a_a.style.borderWidth = '5px'
-
-        a_b.style.borderColor = 'green'
+        a_a.style.borderWidth = '1px'
+        a_a.style.borderColor = '#33ff7c'
+        a_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         a_b.style.borderStyle = 'solid'
-        a_b.style.borderWidth = '5px'
-
-        a_c.style.borderColor = 'green'
+        a_b.style.borderWidth = '1px'
+        a_b.style.borderColor = '#33ff7c'
+        a_c.style.boxShadow = "#33ff7c 2px 3px 8px"
         a_c.style.borderStyle = 'solid'
-        a_c.style.borderWidth = '5px'
-
-        a_d.style.borderColor = 'green'
+        a_c.style.borderWidth = '1px'
+        a_c.style.borderColor = '#33ff7c'
+        a_d.style.boxShadow = "#33ff7c 2px 3px 8px"
         a_d.style.borderStyle = 'solid'
-        a_d.style.borderWidth = '5px'
-
-        a_e.style.borderColor = 'green'
+        a_d.style.borderWidth = '1px'
+        a_d.style.borderColor = '#33ff7c'
+        a_e.style.boxShadow = "#33ff7c 2px 3px 8px"
         a_e.style.borderStyle = 'solid'
-        a_e.style.borderWidth = '5px'
-
-        a_f.style.borderColor = 'green'
+        a_e.style.borderWidth = '1px'
+        a_e.style.borderColor = '#33ff7c'
+        a_f.style.boxShadow = "#33ff7c 2px 3px 8px"
         a_f.style.borderStyle = 'solid'
-        a_f.style.borderWidth = '5px'
-
-        a_g.style.borderColor = 'green'
+        a_f.style.borderWidth = '1px'
+        a_f.style.borderColor = '#33ff7c'
+        a_g.style.boxShadow = "#33ff7c 2px 3px 8px"
         a_g.style.borderStyle = 'solid'
-        a_g.style.borderWidth = '5px'
-
-        a_h.style.borderColor = 'green'
+        a_g.style.borderWidth = '1px'
+        a_g.style.borderColor = '#33ff7c'
+        a_h.style.boxShadow = "#33ff7c 2px 3px 8px"
         a_h.style.borderStyle = 'solid'
-        a_h.style.borderWidth = '5px'
-
+        a_h.style.borderWidth = '1px'
+        a_h.style.borderColor = '#33ff7c'
 
 
     }
 
 
     if (dois_um == "D" && dois_dois == "M" && quatro_tres == "A") {
-        b_a.style.borderColor = 'green'
+        b_a.style.boxShadow = "#33ff7c 2px 3px 8px"
         b_a.style.borderStyle = 'solid'
-        b_a.style.borderWidth = '5px'
-
-        b_b.style.borderColor = 'green'
+        b_a.style.borderWidth = '1px'
+        b_a.style.borderColor = '#33ff7c'
+        b_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         b_b.style.borderStyle = 'solid'
-        b_b.style.borderWidth = '5px'
-
-        d_c.style.borderColor = 'green'
+        b_b.style.borderWidth = '1px'
+        b_b.style.borderColor = '#33ff7c'
+        d_c.style.boxShadow = "#33ff7c 2px 3px 8px"
         d_c.style.borderStyle = 'solid'
-        d_c.style.borderWidth = '5px'
+        d_c.style.borderWidth = '1px'
+        d_c.style.borderColor = '#33ff7c'
     }
 
 
     if (tres_um == "U" && tres_dois == "L" && um_tres == "A") {
-        c_a.style.borderColor = 'green'
+        c_a.style.boxShadow = "#33ff7c 2px 3px 8px"
         c_a.style.borderStyle = 'solid'
-        c_a.style.borderWidth = '5px'
-
-        c_b.style.borderColor = 'green'
+        c_a.style.borderWidth = '1px'
+        c_a.style.borderColor = '#33ff7c'
+        c_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         c_b.style.borderStyle = 'solid'
-        c_b.style.borderWidth = '5px'
-
-        a_c.style.borderColor = 'green'
+        c_b.style.borderWidth = '1px'
+        c_b.style.borderColor = '#33ff7c'
+        a_c.style.boxShadow = "#33ff7c 2px 3px 8px"
         a_c.style.borderStyle = 'solid'
-        a_c.style.borderWidth = '5px'
+        a_c.style.borderWidth = '1px'
+        a_c.style.borderColor = '#33ff7c'
     }
 
     if (um_quatro == "D" && quatro_dois == "U" && quatro_tres == "A" && quatro_quatro == "L" && quatro_cinco == "C" && quatro_seis == "O" && quatro_sete == "R" && quatro_oito == "E") {
 
-        a_d.style.borderColor = 'green'
+        a_d.style.boxShadow = "#33ff7c 2px 3px 8px"
         a_d.style.borderStyle = 'solid'
-        a_d.style.borderWidth = '5px'
-
-        d_b.style.borderColor = 'green'
+        a_d.style.borderWidth = '1px'
+        a_d.style.borderColor = '#33ff7c'
+        d_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         d_b.style.borderStyle = 'solid'
-        d_b.style.borderWidth = '5px'
-
-        d_c.style.borderColor = 'green'
+        d_b.style.borderWidth = '1px'
+        d_b.style.borderColor = '#33ff7c'
+        d_c.style.boxShadow = "#33ff7c 2px 3px 8px"
         d_c.style.borderStyle = 'solid'
-        d_c.style.borderWidth = '5px'
-
-        d_d.style.borderColor = 'green'
+        d_c.style.borderWidth = '1px'
+        d_c.style.borderColor = '#33ff7c'
+        d_d.style.boxShadow = "#33ff7c 2px 3px 8px"
         d_d.style.borderStyle = 'solid'
-        d_d.style.borderWidth = '5px'
-
-        d_e.style.borderColor = 'green'
+        d_d.style.borderWidth = '1px'
+        d_d.style.borderColor = '#33ff7c'
+        d_e.style.boxShadow = "#33ff7c 2px 3px 8px"
         d_e.style.borderStyle = 'solid'
-        d_e.style.borderWidth = '5px'
-
-        d_f.style.borderColor = 'green'
+        d_e.style.borderWidth = '1px'
+        d_e.style.borderColor = '#33ff7c'
+        d_f.style.boxShadow = "#33ff7c 2px 3px 8px"
         d_f.style.borderStyle = 'solid'
-        d_f.style.borderWidth = '5px'
-
-        d_g.style.borderColor = 'green'
+        d_f.style.borderWidth = '1px'
+        d_f.style.borderColor = '#33ff7c'
+        d_g.style.boxShadow = "#33ff7c 2px 3px 8px"
         d_g.style.borderStyle = 'solid'
-        d_g.style.borderWidth = '5px'
-
-        d_h.style.borderColor = 'green'
+        d_g.style.borderWidth = '1px'
+        d_g.style.borderColor = '#33ff7c'
+        d_h.style.boxShadow = "#33ff7c 2px 3px 8px"
         d_h.style.borderStyle = 'solid'
-        d_h.style.borderWidth = '5px'
-
+        d_h.style.borderWidth = '1px'
+        d_h.style.borderColor = '#33ff7c'
     }
 
     if (quatro_cinco == "C" && cinco_dois == "S") {
 
-        d_e.style.borderColor = 'green'
+        d_e.style.boxShadow = "#33ff7c 2px 3px 8px"
         d_e.style.borderStyle = 'solid'
-        d_e.style.borderWidth = '5px'
-
-        e_b.style.borderColor = 'green'
+        d_e.style.borderWidth = '1px'
+        d_e.style.borderColor = '#33ff7c'
+        e_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         e_b.style.borderStyle = 'solid'
-        e_b.style.borderWidth = '5px'
+        e_b.style.borderWidth = '1px'
+        e_b.style.borderColor = '#33ff7c'
     }
 
     if (quatro_sete == "R" && seis_dois == "A" && seis_tres == "M") {
 
-        d_g.style.borderColor = 'green'
+        d_g.style.boxShadow = "#33ff7c 2px 3px 8px"
         d_g.style.borderStyle = 'solid'
-        d_g.style.borderWidth = '5px'
-
-        f_b.style.borderColor = 'green'
+        d_g.style.borderWidth = '1px'
+        d_g.style.borderColor = '#33ff7c'
+        f_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         f_b.style.borderStyle = 'solid'
-        f_b.style.borderWidth = '5px'
-
-        f_c.style.borderColor = 'green'
+        f_b.style.borderWidth = '1px'
+        f_b.style.borderColor = '#33ff7c'
+        f_c.style.boxShadow = "#33ff7c 2px 3px 8px"
         f_c.style.borderStyle = 'solid'
-        f_c.style.borderWidth = '5px'
+        f_c.style.borderWidth = '1px'
+        f_c.style.borderColor = '#33ff7c'
     }
 
-    if(sete_um == "R" && sete_dois == "O" && nove_tres == "M") {
+    if (sete_um == "R" && sete_dois == "O" && nove_tres == "M") {
 
-        g_a.style.borderColor = 'green'
+        g_a.style.boxShadow = "#33ff7c 2px 3px 8px"
         g_a.style.borderStyle = 'solid'
-        g_a.style.borderWidth = '5px'
-
-        g_b.style.borderColor = 'green'
+        g_a.style.borderWidth = '1px'
+        g_a.style.borderColor = '#33ff7c'
+        g_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         g_b.style.borderStyle = 'solid'
-        g_b.style.borderWidth = '5px'
-
-        i_c.style.borderColor = 'green'
+        g_b.style.borderWidth = '1px'
+        g_b.style.borderColor = '#33ff7c'
+        i_c.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_c.style.borderStyle = 'solid'
-        i_c.style.borderWidth = '5px'
+        i_c.style.borderWidth = '1px'
+        i_c.style.borderColor = '#33ff7c'
     }
 
-    if(oito_um == "F" && oito_dois == "L" && nove_onze == "A" && oito_quatro == "S" && oito_cinco == "H") {
+    if (oito_um == "F" && oito_dois == "L" && nove_onze == "A" && oito_quatro == "S" && oito_cinco == "H") {
 
-        h_a.style.borderColor = 'green'
+        h_a.style.boxShadow = "#33ff7c 2px 3px 8px"
         h_a.style.borderStyle = 'solid'
-        h_a.style.borderWidth = '5px'
-
-        h_b.style.borderColor = 'green'
+        h_a.style.borderWidth = '1px'
+        h_a.style.borderColor = '#33ff7c'
+        h_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         h_b.style.borderStyle = 'solid'
-        h_b.style.borderWidth = '5px'
-
-        i_k.style.borderColor = 'green'
+        h_b.style.borderWidth = '1px'
+        h_b.style.borderColor = '#33ff7c'
+        i_k.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_k.style.borderStyle = 'solid'
-        i_k.style.borderWidth = '5px'
-
-        h_d.style.borderColor = 'green'
+        i_k.style.borderWidth = '1px'
+        i_k.style.borderColor = '#33ff7c'
+        h_d.style.boxShadow = "#33ff7c 2px 3px 8px"
         h_d.style.borderStyle = 'solid'
-        h_d.style.borderWidth = '5px'
-
-        h_e.style.borderColor = 'green'
+        h_d.style.borderWidth = '1px'
+        h_d.style.borderColor = '#33ff7c'
+        h_e.style.boxShadow = "#33ff7c 2px 3px 8px"
         h_e.style.borderStyle = 'solid'
-        h_e.style.borderWidth = '5px'
+        h_e.style.borderWidth = '1px'
+        h_e.style.borderColor = '#33ff7c'
     }
 
-    if(nove_um == "M" && nove_dois == "E" && nove_tres == "M" && nove_quatro == "O" && nove_cinco == "R" && nove_seis == "I" && nove_sete == "A" && nove_oito == "D" && um_oito == "E" && nove_dez == "M" && nove_onze == "A" && nove_doze == "S" && nove_treze == "S" && nove_catorze == "A" ) {
+    if (nove_um == "M" && nove_dois == "E" && nove_tres == "M" && nove_quatro == "O" && nove_cinco == "R" && nove_seis == "I" && nove_sete == "A" && nove_oito == "D" && um_oito == "E" && nove_dez == "M" && nove_onze == "A" && nove_doze == "S" && nove_treze == "S" && nove_catorze == "A") {
 
-        i_a.style.borderColor = 'green'
+        i_a.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_a.style.borderStyle = 'solid'
-        i_a.style.borderWidth = '5px'
-
-        i_b.style.borderColor = 'green'
+        i_a.style.borderWidth = '1px'
+        i_a.style.borderColor = '#33ff7c'
+        i_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_b.style.borderStyle = 'solid'
-        i_b.style.borderWidth = '5px'
-
-        i_c.style.borderColor = 'green'
+        i_b.style.borderWidth = '1px'
+        i_b.style.borderColor = '#33ff7c'
+        i_c.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_c.style.borderStyle = 'solid'
-        i_c.style.borderWidth = '5px'
-
-        i_d.style.borderColor = 'green'
+        i_c.style.borderWidth = '1px'
+        i_c.style.borderColor = '#33ff7c'
+        i_d.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_d.style.borderStyle = 'solid'
-        i_d.style.borderWidth = '5px'
-
-        i_e.style.borderColor = 'green'
+        i_d.style.borderWidth = '1px'
+        i_d.style.borderColor = '#33ff7c'
+        i_e.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_e.style.borderStyle = 'solid'
-        i_e.style.borderWidth = '5px'
-
-        i_f.style.borderColor = 'green'
+        i_e.style.borderWidth = '1px'
+        i_e.style.borderColor = '#33ff7c'
+        i_f.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_f.style.borderStyle = 'solid'
-        i_f.style.borderWidth = '5px'
-
-        i_g.style.borderColor = 'green'
+        i_f.style.borderWidth = '1px'
+        i_f.style.borderColor = '#33ff7c'
+        i_g.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_g.style.borderStyle = 'solid'
-        i_g.style.borderWidth = '5px'
-
-        i_h.style.borderColor = 'green'
+        i_g.style.borderWidth = '1px'
+        i_g.style.borderColor = '#33ff7c'
+        i_h.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_h.style.borderStyle = 'solid'
-        i_h.style.borderWidth = '5px'
-
-        a_h.style.borderColor = 'green'
+        i_h.style.borderWidth = '1px'
+        i_h.style.borderColor = '#33ff7c'
+        a_h.style.boxShadow = "#33ff7c 2px 3px 8px"
         a_h.style.borderStyle = 'solid'
-        a_h.style.borderWidth = '5px'
-
-        i_j.style.borderColor = 'green'
+        a_h.style.borderWidth = '1px'
+        a_h.style.borderColor = '#33ff7c'
+        i_j.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_j.style.borderStyle = 'solid'
-        i_j.style.borderWidth = '5px'
-
-        i_k.style.borderColor = 'green'
+        i_j.style.borderWidth = '1px'
+        i_j.style.borderColor = '#33ff7c'
+        i_k.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_k.style.borderStyle = 'solid'
-        i_k.style.borderWidth = '5px'
-
-        i_l.style.borderColor = 'green'
+        i_k.style.borderWidth = '1px'
+        i_k.style.borderColor = '#33ff7c'
+        i_l.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_l.style.borderStyle = 'solid'
-        i_l.style.borderWidth = '5px'
-
-        i_m.style.borderColor = 'green'
+        i_l.style.borderWidth = '1px'
+        i_l.style.borderColor = '#33ff7c'
+        i_m.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_m.style.borderStyle = 'solid'
-        i_m.style.borderWidth = '5px'
-
-        i_n.style.borderColor = 'green'
+        i_m.style.borderWidth = '1px'
+        i_m.style.borderColor = '#33ff7c'
+        i_n.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_n.style.borderStyle = 'solid'
-        i_n.style.borderWidth = '5px'
+        i_n.style.borderWidth = '1px'
+        i_n.style.borderColor = '#33ff7c'
     }
 
-    
-    if(nove_sete == "A" && dez_dois == "D" && onze_tres == "R" && dez_quatro == "E" && doze_dois == "S" && dez_seis == "S" && dez_sete == "B" && catorze_dois == "U" && dez_nove == "S") {
-        
-        i_g.style.borderColor = 'green'
+    if (nove_sete == "A" && dez_dois == "D" && onze_tres == "R" && dez_quatro == "E" && doze_dois == "S" && dez_seis == "S" && dez_sete == "B" && catorze_dois == "U" && dez_nove == "S") {
+
+        i_g.style.boxShadow = "#33ff7c 2px 3px 8px"
         i_g.style.borderStyle = 'solid'
-        i_g.style.borderWidth = '5px'
-
-        j_b.style.borderColor = 'green'
+        i_g.style.borderWidth = '1px'
+        i_g.style.borderColor = '#33ff7c'
+        j_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         j_b.style.borderStyle = 'solid'
-        j_b.style.borderWidth = '5px'
-
-        k_c.style.borderColor = 'green'
+        j_b.style.borderWidth = '1px'
+        j_b.style.borderColor = '#33ff7c'
+        k_c.style.boxShadow = "#33ff7c 2px 3px 8px"
         k_c.style.borderStyle = 'solid'
-        k_c.style.borderWidth = '5px'
-
-        j_d.style.borderColor = 'green'
+        k_c.style.borderWidth = '1px'
+        k_c.style.borderColor = '#33ff7c'
+        j_d.style.boxShadow = "#33ff7c 2px 3px 8px"
         j_d.style.borderStyle = 'solid'
-        j_d.style.borderWidth = '5px'
-
-        j_b.style.borderColor = 'green'
+        j_d.style.borderWidth = '1px'
+        j_d.style.borderColor = '#33ff7c'
+        j_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         j_b.style.borderStyle = 'solid'
-        j_b.style.borderWidth = '5px'
-
-        j_f.style.borderColor = 'green'
+        j_b.style.borderWidth = '1px'
+        j_b.style.borderColor = '#33ff7c'
+        j_f.style.boxShadow = "#33ff7c 2px 3px 8px"
         j_f.style.borderStyle = 'solid'
-        j_f.style.borderWidth = '5px'
-
-        j_g.style.borderColor = 'green'
+        j_f.style.borderWidth = '1px'
+        j_f.style.borderColor = '#33ff7c'
+        j_g.style.boxShadow = "#33ff7c 2px 3px 8px"
         j_g.style.borderStyle = 'solid'
-        j_g.style.borderWidth = '5px'
-
-        n_c.style.borderColor = 'green'
+        j_g.style.borderWidth = '1px'
+        j_g.style.borderColor = '#33ff7c'
+        n_c.style.boxShadow = "#33ff7c 2px 3px 8px"
         n_c.style.borderStyle = 'solid'
-        n_c.style.borderWidth = '5px'
-
-        j_i.style.borderColor = 'green'
+        n_c.style.borderWidth = '1px'
+        n_c.style.borderColor = '#33ff7c'
+        j_i.style.boxShadow = "#33ff7c 2px 3px 8px"
         j_i.style.borderStyle = 'solid'
-        j_i.style.borderWidth = '5px'
-
-        l_b.style.borderColor = 'green'
+        j_i.style.borderWidth = '1px'
+        j_i.style.borderColor = '#33ff7c'
+        l_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         l_b.style.borderStyle = 'solid'
-        l_b.style.borderWidth = '5px'
+        l_b.style.borderWidth = '1px'
+        l_b.style.borderColor = '#33ff7c'
     }
 
-    if(onze_um == "E" && onze_dois == "P" && onze_tres == "R" && onze_quatro == "O" && onze_cinco == "M") {
+    if (onze_um == "E" && onze_dois == "P" && onze_tres == "R" && onze_quatro == "O" && onze_cinco == "M") {
 
-        k_a.style.borderColor = 'green'
+        k_a.style.boxShadow = "#33ff7c 2px 3px 8px"
         k_a.style.borderStyle = 'solid'
-        k_a.style.borderWidth = '5px'
-
-        k_b.style.borderColor = 'green'
+        k_a.style.borderWidth = '1px'
+        k_a.style.borderColor = '#33ff7c'
+        k_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         k_b.style.borderStyle = 'solid'
-        k_b.style.borderWidth = '5px'
-
-        k_c.style.borderColor = 'green'
+        k_b.style.borderWidth = '1px'
+        k_b.style.borderColor = '#33ff7c'
+        k_c.style.boxShadow = "#33ff7c 2px 3px 8px"
         k_c.style.borderStyle = 'solid'
-        k_c.style.borderWidth = '5px'
-
-        k_d.style.borderColor = 'green'
+        k_c.style.borderWidth = '1px'
+        k_c.style.borderColor = '#33ff7c'
+        k_d.style.boxShadow = "#33ff7c 2px 3px 8px"
         k_d.style.borderStyle = 'solid'
-        k_d.style.borderWidth = '5px'
-
-        k_e.style.borderColor = 'green'
+        k_d.style.borderWidth = '1px'
+        k_d.style.borderColor = '#33ff7c'
+        k_e.style.boxShadow = "#33ff7c 2px 3px 8px"
         k_e.style.borderStyle = 'solid'
-        k_e.style.borderWidth = '5px'
+        k_e.style.borderWidth = '1px'
+        k_e.style.borderColor = '#33ff7c'
     }
 
-    if(doze_um == "I" && doze_dois == "S" && doze_tres == "E" && doze_quatro == "T" && doze_cinco == "E") {
-        
-        l_a.style.borderColor = 'green'
+    if (doze_um == "I" && doze_dois == "S" && doze_tres == "E" && doze_quatro == "T" && doze_cinco == "E") {
+
+        l_a.style.boxShadow = "#33ff7c 2px 3px 8px"
         l_a.style.borderStyle = 'solid'
-        l_a.style.borderWidth = '5px'
-
-        l_b.style.borderColor = 'green'
+        l_a.style.borderWidth = '1px'
+        l_a.style.borderColor = '#33ff7c'
+        l_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         l_b.style.borderStyle = 'solid'
-        l_b.style.borderWidth = '5px'
-
-        l_c.style.borderColor = 'green'
+        l_b.style.borderWidth = '1px'
+        l_b.style.borderColor = '#33ff7c'
+        l_c.style.boxShadow = "#33ff7c 2px 3px 8px"
         l_c.style.borderStyle = 'solid'
-        l_c.style.borderWidth = '5px'
-
-        l_d.style.borderColor = 'green'
+        l_c.style.borderWidth = '1px'
+        l_c.style.borderColor = '#33ff7c'
+        l_d.style.boxShadow = "#33ff7c 2px 3px 8px"
         l_d.style.borderStyle = 'solid'
-        l_d.style.borderWidth = '5px'
-
-        l_e.style.borderColor = 'green'
+        l_d.style.borderWidth = '1px'
+        l_d.style.borderColor = '#33ff7c'
+        l_e.style.boxShadow = "#33ff7c 2px 3px 8px"
         l_e.style.borderStyle = 'solid'
-        l_e.style.borderWidth = '5px'
+        l_e.style.borderWidth = '1px'
+        l_e.style.borderColor = '#33ff7c'
     }
 
-    if(treze_um == "I" && treze_dois == "C" && treze_tres == "I" && treze_quatro == "N" && treze_cinco == "C" && quinze_dez == "O") {
+    if (treze_um == "I" && treze_dois == "C" && treze_tres == "I" && treze_quatro == "N" && treze_cinco == "C" && quinze_dez == "O") {
 
-        m_a.style.borderColor = 'green'
+        m_a.style.boxShadow = "#33ff7c 2px 3px 8px"
         m_a.style.borderStyle = 'solid'
-        m_a.style.borderWidth = '5px'
-
-        m_b.style.borderColor = 'green'
+        m_a.style.borderWidth = '1px'
+        m_a.style.borderColor = '#33ff7c'
+        m_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         m_b.style.borderStyle = 'solid'
-        m_b.style.borderWidth = '5px'
-
-        m_c.style.borderColor = 'green'
+        m_b.style.borderWidth = '1px'
+        m_b.style.borderColor = '#33ff7c'
+        m_c.style.boxShadow = "#33ff7c 2px 3px 8px"
         m_c.style.borderStyle = 'solid'
-        m_c.style.borderWidth = '5px'
-
-        m_d.style.borderColor = 'green'
+        m_c.style.borderWidth = '1px'
+        m_c.style.borderColor = '#33ff7c'
+        m_d.style.boxShadow = "#33ff7c 2px 3px 8px"
         m_d.style.borderStyle = 'solid'
-        m_d.style.borderWidth = '5px'
-
-        m_e.style.borderColor = 'green'
+        m_d.style.borderWidth = '1px'
+        m_d.style.borderColor = '#33ff7c'
+        m_e.style.boxShadow = "#33ff7c 2px 3px 8px"
         m_e.style.borderStyle = 'solid'
-        m_e.style.borderWidth = '5px'
-
-        o_j.style.borderColor = 'green'
+        m_e.style.borderWidth = '1px'
+        m_e.style.borderColor = '#33ff7c'
+        o_j.style.boxShadow = "#33ff7c 2px 3px 8px"
         o_j.style.borderStyle = 'solid'
-        o_j.style.borderWidth = '5px'
+        o_j.style.borderWidth = '1px'
+        o_j.style.borderColor = '#33ff7c'
     }
 
-    if(treze_dois == "C" && catorze_um == "P" && catorze_dois == "U") {
+    if (treze_dois == "C" && catorze_um == "P" && catorze_dois == "U") {
 
-        m_b.style.borderColor = 'green'
+        m_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         m_b.style.borderStyle = 'solid'
-        m_b.style.borderWidth = '5px'
-
-        n_b.style.borderColor = 'green'
+        m_b.style.borderWidth = '1px'
+        m_b.style.borderColor = '#33ff7c'
+        n_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         n_b.style.borderStyle = 'solid'
-        n_b.style.borderWidth = '5px'
-
-        n_c.style.borderColor = 'green'
+        n_b.style.borderWidth = '1px'
+        n_b.style.borderColor = '#33ff7c'
+        n_c.style.boxShadow = "#33ff7c 2px 3px 8px"
         n_c.style.borderStyle = 'solid'
-        n_c.style.borderWidth = '5px'
+        n_c.style.borderWidth = '1px'
+        n_c.style.borderColor = '#33ff7c'
     }
 
-    
-    if(quinze_um == "R" && quinze_dois == "E" && quinze_tres == "G" && quinze_quatro == "I" && quinze_cinco == "S" && quinze_seis == "T" && quinze_sete == "R" && quinze_oito == "A" && quinze_nove == "D" && quinze_dez == "O" && quinze_onze == "R" && quinze_doze == "E" && quinze_treze == "S") {
 
-        o_a.style.borderColor = 'green'
+    if (quinze_um == "R" && quinze_dois == "E" && quinze_tres == "G" && quinze_quatro == "I" && quinze_cinco == "S" && quinze_seis == "T" && quinze_sete == "R" && quinze_oito == "A" && quinze_nove == "D" && quinze_dez == "O" && quinze_onze == "R" && quinze_doze == "E" && quinze_treze == "S") {
+
+        o_a.style.boxShadow = "#33ff7c 2px 3px 8px"
         o_a.style.borderStyle = 'solid'
-        o_a.style.borderWidth = '5px'
-
-        o_b.style.borderColor = 'green'
+        o_a.style.borderWidth = '1px'
+        o_a.style.borderColor = '#33ff7c'
+        o_b.style.boxShadow = "#33ff7c 2px 3px 8px"
         o_b.style.borderStyle = 'solid'
-        o_b.style.borderWidth = '5px'
-
-        o_c.style.borderColor = 'green'
+        o_b.style.borderWidth = '1px'
+        o_b.style.borderColor = '#33ff7c'
+        o_c.style.boxShadow = "#33ff7c 2px 3px 8px"
         o_c.style.borderStyle = 'solid'
-        o_c.style.borderWidth = '5px'
-
-        o_d.style.borderColor = 'green'
+        o_c.style.borderWidth = '1px'
+        o_c.style.borderColor = '#33ff7c'
+        o_d.style.boxShadow = "#33ff7c 2px 3px 8px"
         o_d.style.borderStyle = 'solid'
-        o_d.style.borderWidth = '5px'
-
-        o_e.style.borderColor = 'green'
+        o_d.style.borderWidth = '1px'
+        o_d.style.borderColor = '#33ff7c'
+        o_e.style.boxShadow = "#33ff7c 2px 3px 8px"
         o_e.style.borderStyle = 'solid'
-        o_e.style.borderWidth = '5px'
-
-        o_f.style.borderColor = 'green'
+        o_e.style.borderWidth = '1px'
+        o_e.style.borderColor = '#33ff7c'
+        o_f.style.boxShadow = "#33ff7c 2px 3px 8px"
         o_f.style.borderStyle = 'solid'
-        o_f.style.borderWidth = '5px'
-
-        o_g.style.borderColor = 'green'
+        o_f.style.borderWidth = '1px'
+        o_f.style.borderColor = '#33ff7c'
+        o_g.style.boxShadow = "#33ff7c 2px 3px 8px"
         o_g.style.borderStyle = 'solid'
-        o_g.style.borderWidth = '5px'
-
-        o_h.style.borderColor = 'green'
+        o_g.style.borderWidth = '1px'
+        o_g.style.borderColor = '#33ff7c'
+        o_h.style.boxShadow = "#33ff7c 2px 3px 8px"
         o_h.style.borderStyle = 'solid'
-        o_h.style.borderWidth = '5px'
-
-        o_i.style.borderColor = 'green'
+        o_h.style.borderWidth = '1px'
+        o_h.style.borderColor = '#33ff7c'
+        o_i.style.boxShadow = "#33ff7c 2px 3px 8px"
         o_i.style.borderStyle = 'solid'
-        o_i.style.borderWidth = '5px'
-
-        o_j.style.borderColor = 'green'
+        o_i.style.borderWidth = '1px'
+        o_i.style.borderColor = '#33ff7c'
+        o_j.style.boxShadow = "#33ff7c 2px 3px 8px"
         o_j.style.borderStyle = 'solid'
-        o_j.style.borderWidth = '5px'
-
-        o_k.style.borderColor = 'green'
+        o_j.style.borderWidth = '1px'
+        o_j.style.borderColor = '#33ff7c'
+        o_k.style.boxShadow = "#33ff7c 2px 3px 8px"
         o_k.style.borderStyle = 'solid'
-        o_k.style.borderWidth = '5px'
-
-        o_l.style.borderColor = 'green'
+        o_k.style.borderWidth = '1px'
+        o_k.style.borderColor = '#33ff7c'
+        o_l.style.boxShadow = "#33ff7c 2px 3px 8px"
         o_l.style.borderStyle = 'solid'
-        o_l.style.borderWidth = '5px'
-
-        o_m.style.borderColor = 'green'
+        o_l.style.borderWidth = '1px'
+        o_l.style.borderColor = '#33ff7c'
+        o_m.style.boxShadow = "#33ff7c 2px 3px 8px"
         o_m.style.borderStyle = 'solid'
-        o_m.style.borderWidth = '5px'
+        o_m.style.borderWidth = '1px'
+        o_m.style.borderColor = '#33ff7c'
     }
 
-    
-    if(dezesseis_um == "D" && quinze_oito == "A" && dezesseis_tres == "T" && dezesseis_quatro == "A" && dezesseis_cinco == "B" && dezesseis_seis == "U" && dezesseis_sete == "S") {
 
-        
-        p_a.style.borderColor = 'green'
+    if (dezesseis_um == "D" && quinze_oito == "A" && dezesseis_tres == "T" && dezesseis_quatro == "A" && dezesseis_cinco == "B" && dezesseis_seis == "U" && dezesseis_sete == "S") {
+
+
+        p_a.style.boxShadow = "#33ff7c 2px 3px 8px"
         p_a.style.borderStyle = 'solid'
-        p_a.style.borderWidth = '5px'
+        p_a.style.borderWidth = '1px'
+        p_a.style.borderColor = '#33ff7c'
 
-        
-        o_h.style.borderColor = 'green'
+        o_h.style.boxShadow = "#33ff7c 2px 3px 8px"
         o_h.style.borderStyle = 'solid'
-        o_h.style.borderWidth = '5px'
+        o_h.style.borderWidth = '1px'
+        o_h.style.borderColor = '#33ff7c'
 
-        
-        p_c.style.borderColor = 'green'
+        p_c.style.boxShadow = "#33ff7c 2px 3px 8px"
         p_c.style.borderStyle = 'solid'
-        p_c.style.borderWidth = '5px'
+        p_c.style.borderWidth = '1px'
+        p_c.style.borderColor = '#33ff7c'
 
-        
-        p_d.style.borderColor = 'green'
+        p_d.style.boxShadow = "#33ff7c 2px 3px 8px"
         p_d.style.borderStyle = 'solid'
-        p_d.style.borderWidth = '5px'
+        p_d.style.borderWidth = '1px'
+        p_d.style.borderColor = '#33ff7c'
 
-        
-        p_e.style.borderColor = 'green'
+        p_e.style.boxShadow = "#33ff7c 2px 3px 8px"
         p_e.style.borderStyle = 'solid'
-        p_e.style.borderWidth = '5px'
+        p_e.style.borderWidth = '1px'
+        p_e.style.borderColor = '#33ff7c'
 
-        
-        p_f.style.borderColor = 'green'
+        p_f.style.boxShadow = "#33ff7c 2px 3px 8px"
         p_f.style.borderStyle = 'solid'
-        p_f.style.borderWidth = '5px'
+        p_f.style.borderWidth = '1px'
+        p_f.style.borderColor = '#33ff7c'
 
-        
-        p_g.style.borderColor = 'green'
+        p_g.style.boxShadow = "#33ff7c 2px 3px 8px"
         p_g.style.borderStyle = 'solid'
-        p_g.style.borderWidth = '5px'
+        p_g.style.borderWidth = '1px'
+        p_g.style.borderColor = '#33ff7c'
     }
-
 
 
 
